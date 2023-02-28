@@ -1,0 +1,59 @@
+
+h1{
+    color: rgba(38, 0, 255, 0.84);
+    font-size: 50px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    border: 3px solid white;
+    border-radius: 40%; 
+}
+
+header{
+    background-color: rgba(26, 184, 232, 0.604);
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+h1{
+    background-color: rgba(26, 184, 232, 0.604);
+}
+
+
+body{
+    background-color: rgba(26, 184, 232, 0.604);
+    padding-left: 10%;
+    padding-right: 0%;
+}
+
+.pools {
+    background-color: rgb(15, 190, 243);
+}
+
+p{
+    color:rgb(47, 38, 74);
+    font-size: 15px;
+}
+
+a{
+    color:rgb(59, 39, 160)
+}
+
+h2{
+    color:rgb(17, 0, 255);
+    font-size: 40px;
+}
+
+h3{
+    color:blue;
+    font-size: 28px;
+}
+
+ul{
+    color:rgb(13, 13, 39)
+}
+
+
+
