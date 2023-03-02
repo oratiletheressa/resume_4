@@ -8,52 +8,84 @@ h1{
 img{
     display: block;
     border: 3px solid white;
-    border-radius: 40%; 
+    border-radius: 60%; 
 }
 
 header{
     background-color: rgba(26, 184, 232, 0.604);
-    padding-left: 40%;
+    padding-left: 25%;
     padding-right: 40%;
 }
 
 h1{
     background-color: rgba(26, 184, 232, 0.604);
+    padding-left: 12%;
+    padding-right: 0%;
 }
 
 
 body{
     background-color: rgba(26, 184, 232, 0.604);
-    padding-left: 10%;
-    padding-right: 0%;
+    padding-left: 0%;
+    padding-right: 10%;
 }
 
 .pools {
-    background-color: rgb(15, 190, 243);
+    background-color: rgb(18, 19, 19);
+    position: absolute;
+    padding: 20px;
+    left: 1%;
 }
 
 p{
     color:rgb(47, 38, 74);
     font-size: 15px;
+    padding-left: 19%;
+    padding-right: 0%;
 }
 
 a{
-    color:rgb(59, 39, 160)
+    color:rgb(242, 242, 247);
+    padding-left: 15%;
+    padding-right: %;
+    margin-left: -15%;
+    margin-right: 0%
+    
 }
 
 h2{
     color:rgb(17, 0, 255);
     font-size: 40px;
+    background-color: #30cfe3;
+    margin: 20px;
+    padding-right: 0%;
+    padding-left: 25%;
+    border-style: dashed;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: rgb(118, 113, 113);
+  border-radius: 10px 20px 30px 40px;    
 }
 
 h3{
     color:blue;
     font-size: 28px;
+    padding-left: 19%;
+    padding-right: 0%;
 }
 
 ul{
-    color:rgb(13, 13, 39)
+    color:rgb(4, 4, 27);
+    padding-left: 19%;
+    padding-right: 0%;
 }
+
+article{
+    padding-top: 20%;
+}
+
+
 
 
 
