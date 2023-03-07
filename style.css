@@ -6,7 +6,6 @@ h1{
 }
 
 img{
-    display: block;
     border: 3px solid white;
     border-radius: 60%; 
     
@@ -44,8 +43,6 @@ body{
     
     text-align: center;
     padding: 20px;
-
-    right: 20%;
 }
 
 p{
@@ -58,9 +55,9 @@ p{
 a{
     color:rgb(242, 242, 247);
     padding-left: 15%;
-    padding-right:0 %;
+    padding-right: 0%;
     margin-left: -15%;
-    margin-right: 0%
+    margin-right: 0%;
     
 }
 
@@ -69,7 +66,7 @@ h2{
     font-size: 60px;
     margin: 20px;
     padding-right: 0%;
-    padding-left: 22%    
+    padding-left: 22%;    
 }
 
 h3{
@@ -87,7 +84,7 @@ ul{
 
 
 article{
-    padding-top: 20%;
+
 }
 
 .moo{
@@ -109,7 +106,7 @@ article{
 }
 
 .education{
-    text-align: :left;
+    text-align: left;
     margin:top
     
 }
