@@ -5,6 +5,18 @@ h1{
     margin-left: 12vw;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    h1{
+    font-size: 70px;}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    h1{
+    font-size: 60px;}
+}
+
+
+
 #heading{
     min-height: 100vh;
     /*bg*/
@@ -15,10 +27,34 @@ h1{
     background-size: cover;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    #heading {
+        min-height: 100vh;
+        background-color: white;
+        background: url(https://orbograph.com/wp-content/uploads/2021/01/healthcare-ai-gif.gif);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    #heading {
+        min-height: 100vh;
+        background-color: white;
+        background: url(https://img1.picmix.com/output/stamp/normal/2/8/4/2/1282482_19d81.gif);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;    
+    }
+}
 
 .hero{
     text-align: center; 
 }
+
+
+
 
 img{
     position: absolute;
@@ -34,17 +70,31 @@ h1{
     padding-right: 0%;
 }
 
-
 body{
     background-color: rgb(0, 10, 14);
     
 }
+
 
 .pools {
     background-color: rgb(3, 4, 4);
     position: absolute;
     padding: 20px;
     left: 1%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .pools {
+        background-color: orange;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .pools {
+        background-color: rgb(248, 4, 146);
+        font-size: 10px;
+    }
 }
 
 .header{
@@ -54,7 +104,7 @@ body{
 }
 
 p{
-    color:rgb(72, 35, 183);
+    color:rgb(242, 241, 246);
     font-size: 15px;
     padding-left: 19%;
     padding-right: 0%;
@@ -70,18 +120,40 @@ a{
 }
 
 h2{
-    color:rgb(13, 8, 75);
+    color:rgb(231, 230, 235);
     font-size: 60px;
     margin: 20px;
     padding-right: 0%;
     padding-left: 22%;    
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    h2{
+    font-size: 50px;}
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    h2{
+    font-size: 40px;}
+}
+
+
+
 h3{
-    color:rgb(8, 8, 53);
+    color:rgb(236, 236, 245);
     font-size: 28px;
     padding-left: 19%;
     padding-right: 0%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+    h3{
+    font-size: 20px;}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px){
+    h3{
+    font-size: 15px;}
 }
 
 
@@ -89,6 +161,20 @@ h3{
     background-color: rgb(70, 141, 240);
     text-align: center;
 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .moo {
+        background-color: rgb(255, 51, 0);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .moo {
+        background-color: rgb(248, 4, 224);
+        font-size: 10px;
+    }
 }
 
 .wrapper{
@@ -109,11 +195,40 @@ h3{
     
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .education {
+        background-color: orange;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .education {
+        background-color: rgb(243, 85, 203);
+        font-size: 10px;
+    }
+}
+
+
 .experience{
     background: rgb(43, 101, 227);
     font-size: 30px;
     text-align: left;
   
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .experience {
+        background-color: rgb(253, 103, 34);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .experience {
+        background-color: rgb(244, 184, 229);
+        font-size: 10px;
+    }
 }
 
 .skills{
@@ -122,11 +237,29 @@ h3{
     font-size: 30px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .skills {
+        background-color: rgba(250, 209, 6, 0.997);
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 299px) {
+    .skills {
+        background-color: rgb(251, 132, 191);
+        font-size: 10px;
+    }
+}
+
+
+
 .aside {
     display:flex;
     padding-top: 0px;
     padding-bottom: 10px;
 }
+
+
 
 .experience, .skills {
     flex: 1;
@@ -143,6 +276,8 @@ h3{
     .skills     { order: 3; }
     .moo        { order: 4; }
 }
+
+
 
 
 
