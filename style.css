@@ -18,6 +18,7 @@ h1{
 
 
 #heading{
+    padding-top: 5%;
     min-height: 100vh;
     /*bg*/
     background-color: white;
@@ -51,6 +52,7 @@ h1{
 
 .hero{
     text-align: center; 
+    
 }
 
 
