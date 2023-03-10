@@ -77,12 +77,17 @@ body{
     
 }
 
+ul {
+    list-style-type: none;
+}
+
 
 .pools {
     background-color: rgb(89, 188, 188);
     position: RIGHT;
     padding: 20px;
     left: 1%;
+    
 }
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
